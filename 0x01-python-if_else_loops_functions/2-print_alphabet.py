@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-
-for alphabet in range(97,123):
-              print(chr(alphabet),end='')
+for a in range(ord('a'), ord('z') + 1):
+    print("{:s}".format(chr(a)), end="")
